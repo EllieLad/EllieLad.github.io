@@ -1,0 +1,56 @@
+body{
+  background-color: #FFA20E;
+padding: 10px;
+font-family: 'Futura', sans-serif;
+}
+h1{
+  font-weight: 900;
+  font-size: 40px;
+}
+h1 a {
+  color: black;
+}
+
+h1 a:hover {
+  color: #D80000;
+}
+p {
+  text-align: center;
+  color: #D80000;
+  font-weight: 400;
+  font-size: 32px;
+}
+ul {
+  list-style-type: none;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+}
+li a {
+  color:#D80000;
+    text-decoration: none;
+}
+
+li {
+  padding-bottom: 15px 
+}
+
+@media only screen and (min-width: 600px) {
+  body{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    }
+    h1{
+      font-size: 70px;
+
+  }
+  li {
+    display: inline-block;
+  }
+  li:not(:last-of-type){
+    padding-right: 25px
+  }
+}
